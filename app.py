@@ -19,6 +19,17 @@ def add_task():
     data = request.get_json()
 
     try:
+
+        with open(database_path, 'r') as file:
+            #creating a reader object
+            reader = csv.reader(file)
+
+            #iterating through the rows
+            for row in reader:
+                #checking if the id is equal to the id of the row
+                if data['id'] == row[0]:
+                    return jsonify({'message': 'Task already exists'})
+
         with open(database_path, 'a', newline="") as file:
             #creating a writer object
             writer = csv.writer(file)
