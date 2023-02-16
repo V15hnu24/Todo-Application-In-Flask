@@ -112,9 +112,12 @@ If not error according to the error will be returned
 
 The request body should be in the following format:
 
+Status should be 0 or 1 where 0 is incomplete and 1 is complete
+
+
 ```json
 {
-    "Status": 0 or 1, // 0 for incomplete and 1 for complete
+    "Status": 0 ,
     "Task": "task"
 }
 ```
