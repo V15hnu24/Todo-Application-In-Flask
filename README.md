@@ -83,7 +83,7 @@ The id should be unique and the task should be a string. The request body should
 }
 ```
 
-=Returns json message of showing the whether the api has executed or not if successfully executed it will return the following message:
+Returns json message of showing the whether the api has executed or not if successfully executed it will return the following message:
 
 ```json
 {
