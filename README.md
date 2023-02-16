@@ -71,4 +71,4 @@ To test this use services like [Postman](https://www.postman.com/) or [Insomnia]
 
 
 ## Contributor
-- [Vishnu](799vishnu530@gmail.com)
+- [Vishnu](https://github.com/V15hnu24)
