@@ -68,3 +68,7 @@ To test this use services like [Postman](https://www.postman.com/) or [Insomnia]
 6. PUT /mark-task-complete/<int:id> - To mark a task as complete 
 
 7. PUT /mark-task-incomplete/<int:id> - To mark a task as incomplete
+
+
+## Contributor
+- [Vishnu](799vishnu530@gmail.com)
