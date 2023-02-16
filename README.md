@@ -53,7 +53,7 @@ As this is a simple backend application, it will run on the localhost:5000
 To test this use services like [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/)
 
 
-##API Endpoints
+## API Endpoints
 
 1. POST /add-task - To add a task 
 
